@@ -11,18 +11,18 @@
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a> -->
 
-    <div class="grid grid-cols-2 gap-4">
-       <div>first</div>
-       <div>
-            <div class="grid grid-cols-1 divide-y">
-               <div>01</div>
-               <div>02</div>
-               <div>03</div>
-               <div>04</div>
-               <div>05</div>
-               <div>06</div>
-            </div>
-       </div>
+    <div class="flex mb-4">
+        <div class="w-full xl:w-3/4 mb-4 bg-gray-500">First Column</div>
+        <div class="w-full xl:w-3/4 mb-4 bg-gray-400">
+          <div class="flex flex-col ...">
+             <div>01</div>
+             <div>02</div>
+             <div>03</div>
+             <div>04</div>
+             <div>05</div>
+             <div>06</div>
+          </div>
+        </div>
     </div>
   </div> 
   <!-- <HelloWorld msg="Vite + Vue" /> --> 
